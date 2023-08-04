@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,600;1,500;1,700&family=Poppins:wght@500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #edf2f6;
+  color: #6c757d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #212529;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: white;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* light mode -- dark */
+.light .bg-dark {
+  background-color: #212529;
+}
+
+.light .hover\:bg-dark:hover {
+  background-color: #212529;
+}
+
+.light .text-dark {
+  color: #212529;
+}
+
+.light .hover\:text-dark:hover {
+  color: #212529;
+}
+
+/* light mode -- light dark */
+.light .bg-light-dark {
+  background-color: #f8f9fa;
+}
+
+.light .hover\:bg-light-dark:hover {
+  background-color: #f8f9fa;
+}
+
+.light .text-light-dark {
+  color: #f8f9fa;
+}
+
+.light .hover\:text-light-dark:hover {
+  color: #f8f9fa;
+}
+
+/* light mode -- secondary */
+.light .bg-secondary {
+  background-color: #edf2f6;
+}
+
+.light .hover\:bg-secondary:hover {
+  background-color: #edf2f6;
+}
+
+.light .text-secondary {
+  color: #edf2f6;
+}
+
+.light .hover\:text-secondary:hover {
+  color: #edf2f6;
+}
+
+/* ===== dark mode ====== */
+.dark .bg-white {
+  background-color: #1b1b1b;
+}
+
+.dark body {
+  background-color: #101010;
+}
+
+.dark .hover\:bg-white:hover {
+  background-color: #1b1b1b;
+}
+
+.dark .hover\:text-black:hover {
+  color: white;
+}
+
+.dark .text-black {
+  color: white;
+}
+
+/* light dark */
+.dark .bg-light-dark {
+  color: #000000 !important;
+}
+
+.dark .text-light-dark {
+  color: #000000 !important;
+}
+
+.dark .hover\:bg-light-dark:hover {
+  background-color: #000;
+}
+.dark .hover\:text-light-dark:hover {
+  color: #000;
+}
+
+.dark .hover\:bg-gray-200:hover {
+  background-color: #333;
+}
+
+/* dark */
+.dark .bg-dark {
+  color: white !important;
+}
+
+.dark .text-dark {
+  color: white !important;
+}
+
+.dark .hover\:bg-dark:hover {
+  background-color: white;
+}
+.dark .hover\:text-dark:hover {
+  color: white;
+}
+
+.dark .border-b {
+  border-bottom: 1px solid #292929 !important;
+}
+.dark .border {
+  border: 1px solid #292929 !important;
+}
+
+/* dark mode -- secondary */
+.dark .bg-secondary {
+  background-color: #101010;
+}
+
+.dark .hover\:bg-secondary:hover {
+  background-color: #101010;
+}
+
+.dark .text-secondary {
+  color: #101010;
+}
+
+.dark .hover\:text-secondary:hover {
+  color: #101010;
+}
